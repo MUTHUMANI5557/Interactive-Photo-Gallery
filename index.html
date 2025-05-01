@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Photo Gallery</title>
+    
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="gallery-container">
+      <header class="gallery-header">
+    My Interactive Photo Gallery
+  </header>
+    <div class="preview">
+      <img id="mainImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuaA6Prs0iurHqQ2_uFjWrGSexwD3KbqyAFYKzGTcuhEA3PDvDxPzDgLqeCBemzrBIlXM&usqp=CAU" alt="Main preview" />
+    </div>
+    <div class="thumbnails">
+      <img src="https://i.pinimg.com/736x/dd/fd/4b/ddfd4bc1508a9757740034717f56de68.jpg" alt="Thumbnail 1" onclick="swapImage(this)" />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjQL2wWKr7PimDl7MsI-mDKVKQb-A1zdLK66ow4leUIY0CB0J3yY52K-TvVzm4vtPFmzQ&usqp=CAU" alt="Thumbnail 2" onclick="swapImage(this)" />
+      <img src="https://i.pinimg.com/736x/41/c0/d2/41c0d29fe5b5951d994f7f8dad3d01aa.jpg" alt="Thumbnail 3" onclick="swapImage(this)" />
+      <img src="https://i.pinimg.com/736x/9f/fd/b5/9ffdb5ff846c76c0cc394123a8629047.jpg" alt="Thumbnail 4" onclick="swapImage(this)" />
+      <img src="https://i.pinimg.com/736x/5d/ad/94/5dad940f508c1289df42f614569f3862.jpg" alt="Thumbnail 5" onclick="swapImage(this)" />
+      <img src="https://i.pinimg.com/736x/18/fc/82/18fc82fd7012b38e0a6b02d0773f3c7d.jpg" alt="Thumbnail 6" onclick="swapImage(this)" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
