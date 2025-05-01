@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+.gallery-header {
+  background-color: #4caf50;       /* Green background */
+  color: blue;                    /* White text */
+  text-align: center;              /* Center text horizontally */
+  padding: 30px 0;                 /* Space inside header */
+  margin-bottom: 30px;             /* Space below header */
+  font-size: 34px;                 /* Header font size */
+  font-weight:bold;   
+  font-family: algeria;/* Bold text */
+}
+
+ 
+h1 {
+    
+  margin-bottom: 20px;
+  background-color:#0000FF;
+  padding-block-start: 20px;
+}
+
+.preview {
+  border: 3px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.preview img {
+  width: 100%;
+  height: auto;
+  max-height: 450px;
+  object-fit: cover;
+}
+
+.thumbnails {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.thumbnails img {
+  width: 100%;
+  cursor: pointer;
+  transition: transform 0.3s, border 0.3s;
+  border: 2px solid transparent;
+}
+
+.thumbnails img:hover,
+.thumbnails img:focus {
+  transform: scale(1.05);
+  border-color: #0077cc;
+}
